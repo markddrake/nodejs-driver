@@ -17,7 +17,8 @@ function getSpawn(command, args, options) {
 
 // var platform = (typeof window != 'undefined' && (window)['process']) ? 'electron' : 'node';
 var platform = 'node';
-var abiVersion = process.versions.modules;
+// var abiVersion = process.versions.modules;
+var abiVersion = 64
 var os = process.platform;
 var teradataPrebuiltFastcallVersion = '0.2.6';
 var teradataNativelibVersion = '1.0.0-beta.1';
